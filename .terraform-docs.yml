@@ -4,15 +4,6 @@ output:
   file: README.md
   mode: replace
   template: |-
-
-      # terraform-aws-iam-assume-role
-
-      This module manage the AWS IAM to create role and policy to assume role.
-
-      ## Usage
-
-      ### Basic
-
     <!-- BEGIN_TF_DOCS -->
     {{ .Content }}
     <!-- END_TF_DOCS -->
