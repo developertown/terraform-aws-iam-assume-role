@@ -10,7 +10,7 @@ content: |-
   ### Basic
 
   ```hcl
-  {{ include "examples/complete/assume-role.hcl" }}
+  {{ include "examples/complete/assume-role/terragrunt.hcl" }}
   ```
 
 output:
