@@ -5,7 +5,6 @@ content: |-
 
   This module manage the AWS IAM to create role and policy to assume role.
 
-
   ## Usage
 
   ### Basic
@@ -13,6 +12,14 @@ content: |-
   ```hcl
   {{ include "examples/complete/assume-role/terragrunt.hcl" }}
   ```
+  
+  {{ .Requirements }}
+
+  {{ .Resources }}
+
+  {{ .Inputs }}
+
+  {{ .Outputs }}
 
 output:
   file: README.md
