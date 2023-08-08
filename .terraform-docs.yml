@@ -12,6 +12,14 @@ content: |-
   ```hcl
   {{ include "examples/complete/assume-role/terragrunt.hcl" }}
   ```
+  
+  {{ .Requirements }}
+
+  {{ .Resources }}
+
+  {{ .Inputs }}
+
+  {{ .Outputs }}
 
 output:
   file: README.md
