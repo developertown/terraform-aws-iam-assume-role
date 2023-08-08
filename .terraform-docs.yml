@@ -33,7 +33,6 @@ output:
           "Company" = "DeveloperTown"
         }
       }
-
       ```
 
     <!-- BEGIN_TF_DOCS -->
