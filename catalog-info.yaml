@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-aws-iam-assume-role
+  description: AWS IAM to create role and policy to assume role.
+  annotations:
+    github.com/project-slug: developertown/terraform-aws-iam-assume-role
+  tags:
+    - terraform
+    - aws
+    - iam
+    - role
+    - assume-role
+spec:
+  type: terraform-module
+  lifecycle: production
+  owner: dt-devops
